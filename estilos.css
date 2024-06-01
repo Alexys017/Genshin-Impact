@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    --color1: rgb(46, 39, 32);
+    font-family: Tahoma, Helvetica, Arial, sans-serif;
+}
+#contenedorprincipal{
+    width: 72%;
+    height: 950px;
+    margin: 20px auto;
+    background-color: rgb(221, 216, 210);
+    background-image: url(img/background);
+}
+#encabezado{
+    display: flex;
+    background-color: var(--color1);
+    opacity: 70%;
+    justify-content:space-between;
+    padding: 15px;
+    align-items: center;
+}
+#encabezado img{
+    width: 100%;
+}
+#redes{
+    width: 24%;
+    margin: 7px;
+    
+}
+#sesion{
+    width: 3%;
+}
+#des{
+    margin: 6px;
+    width: 15%;
+}
+#menu{
+    display: flex;
+    justify-content: space-around;
+    background-color:var(--color1);
+    color: rgb(236, 229, 229);
+    height: 4%;
+    text-align: center;
+    padding: 9px;
+    opacity: 72%;
+}
+#cuerpo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    text-align: center;
+}
+#contenedor{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+#cuerpo img{
+    width: 100%;
+}
+#arle{
+    width: 25%;
+}
+#lyney{
+    width: 25%;
+}
+#scara{
+    width: 25%;
+}
+#boton{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    padding-left: 9%;
+    padding-right: 9%;
+    
+}
+.tres{
+    width: 90px;
+    height: 30px;
+    background-color: rgb(197, 43, 43);
+    text-align: center;
+    padding: 5px;
+    color: antiquewhite;
+}
+
+#pie{
+    height: 150px;
+    background-color: var(--color1);
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: rgb(236, 229, 229);
+}
+#pie img{
+    width: 100%;
+}
+#mihoyo{
+    width: 40%;
+}
